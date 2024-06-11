@@ -23,7 +23,7 @@ function runGame($questionGame, array $round)
         if ($userAnswer == (string)$correctAnswer) {
             line("Correct!");
         } else {
-            line("''$userAnswer' is wrong answer ;(. Correct answer was '$correctAnswer''.");
+            line("'$userAnswer' is wrong answer ;(. Correct answer was '$correctAnswer'.");
             line("Let's try again, {$name}!");
             exit();
         }
