@@ -11,4 +11,3 @@ function greetingUser()
     $name = prompt('May I have your name? ');
     line("Hello, $name!");
 }
-
